@@ -4,7 +4,7 @@ import FeatureCardContainer from './featureCard/FeatureCardContainer'
 
 export default function mainBody() {
   return (
-    <div >
+    <div className='px-[7.5%]'>
     <PlanContainer />
     <FeatureCardContainer />
     </div>
