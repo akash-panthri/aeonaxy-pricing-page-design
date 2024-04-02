@@ -1,5 +1,6 @@
 import DemoComponent from "./DemoComponent";
 import MainBody from "./components/mainBody/MainBody";
+// import PlanTrial from "./components/mainBody/plan/PlanTrial";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
    {/* <DemoComponent /> */}
    <MainBody />
+   {/* <PlanTrial /> */}
     </div>
   );
 }
