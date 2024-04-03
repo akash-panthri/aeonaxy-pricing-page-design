@@ -1,0 +1,29 @@
+.scramblerr {
+  position: relative;
+  overflow: hidden;
+}
+.scramblerr::after {
+  content: "";
+  position: absolute;
+  height: 20vmin;
+  width: 50vmin;
+  background: #0ae7ef;
+
+  border-top-left-radius: 30%;
+  /* border-top-right-radius: 70%; */
+  bottom: -35%;
+  left: 10vw;
+  transform: rotate(35deg);
+}
+.scramblerr::before {
+  content: "";
+  position: absolute;
+  height: 30vmin;
+  width: 30vmin;
+  background: #004895;
+  border-top-left-radius: 30%;
+  /* border-top-right-radius: 60%; */
+  bottom: -35%;
+  left: -5%;
+  transform: rotate(45deg);
+}

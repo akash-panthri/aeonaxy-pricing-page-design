@@ -3,7 +3,12 @@ import FAQQuery from './FAQQuery'
 
 export default function FAQContainer() {
   return (
-    <div>FAQContainer
+    <div className='flex flex-col w-[25%]'>
+    <FAQQuery />
+    <FAQQuery />
+    <FAQQuery />
+    <FAQQuery />
+    <FAQQuery />
     <FAQQuery />
     </div>
   )
