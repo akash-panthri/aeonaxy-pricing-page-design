@@ -40,11 +40,10 @@ const Switcher10 = () => {
 
   return (
     <>
-      <label className='autoSaverSwitch relative flex flex-row w-1/4  justify-between cursor-pointer select-none items-center'>
+      <label className='relative flex flex-row w-1/4  justify-between cursor-pointer select-none items-center'>
       <span className={` ${isChecked ? 'text-[#dddfe1]' : 'text-cyl-blue font-semibold'}`}>Billed Monthly</span>
         <input
           type='checkbox'
-          name='autoSaver'
           className='sr-only'
           checked={isChecked}
           onChange={handleCheckboxChange}
