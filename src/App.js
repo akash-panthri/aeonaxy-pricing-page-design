@@ -11,7 +11,7 @@ import NavContainer from "./components/nav/NavContainer";
 
 function App() {
   return (
-    <div className="bg-white">
+    <div className="bg-white p-5 ">
    {/* <DemoComponent /> */}
    <NavContainer />
    <HeadContainer />

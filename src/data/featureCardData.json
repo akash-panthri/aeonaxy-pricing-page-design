@@ -1,0 +1,67 @@
+[
+    {
+        "id":1,
+        "cardBg":"#f8f8f8",
+        "buttonBg":"#f8f8f8",
+        "cardTextCol":"#000000",
+        "buttonTextCol":"#056dff",
+        "buttonBorder":"#056dff",
+        "buttonText":"Get Started",
+        "planName":"Basic",
+        "price":"Free",
+        "planDetail":"When you just want the basics"
+    }
+    ,
+    {
+        "id":2,
+        "cardBg":"#f8f8f8",
+        "buttonBg":"#f8f8f8",
+        "cardTextCol":"#000000",
+        "buttonTextCol":"#056dff",
+        "buttonBorder":"#056dff",
+        "buttonText":"Start Essentials",
+        "planName":"Essentials",
+        "price":"8",
+        "planDetail":"When you need powerful scheduling automation"
+    }
+    ,
+    {
+        "id":3,
+        "cardBg":"#ffffff",
+        "buttonBg":"#056dff",
+        "cardTextCol":"#000000",
+        "buttonTextCol":"#ffffff",
+        "buttonBorder":"#056dff",
+        "buttonText":"Start Professional",
+        "planName":"Professional",
+        "price":"12",
+        "planDetail":"When you need customization, integrations, and basic team features",
+        "popular":"dd"
+    }
+    ,
+    {
+        "id":4,
+        "cardBg":"#f7faff",
+        "buttonBg":"#f7faff",
+        "cardTextCol":"#000000",
+        "buttonTextCol":"#056dff",
+        "buttonBorder":"#056dff",
+        "buttonText":"Try for Free",
+        "planName":"Teams",
+        "price":"16",
+        "planDetail":"When your team needs to align on a scheduling process and collaborate efficiently"
+    }
+    ,
+    {
+        "id":5,
+        "cardBg":"#092640",
+        "buttonBg":"#092640",
+        "cardTextCol":"#ffffff",
+        "buttonTextCol":"#ffffff",
+        "buttonBorder":"#ffffff",
+        "buttonText":"Contact Us",
+        "planName":"Enterprise",
+        "price":"Contact Us",
+        "planDetail":"When your 30+ member team needs advanced security, control and support"
+    }
+]

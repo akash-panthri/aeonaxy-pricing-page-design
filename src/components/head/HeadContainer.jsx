@@ -3,10 +3,10 @@ import Switcher from './Switch'
 
 export default function HeadContainer() {
   return (
-    <div className='py-[5%] flex flex-col items-center'>
+    <div className='py-[5%] h-[55vh] flex flex-col items-center justify-between'>
     <p className='text-5xl text-center flex flex-col font-bold'>
     Scheduling should be easy.
-        <span className='text-5xl text-cyl-blue'>
+        <span className='mt-7 text-5xl text-cyl-blue'>
 Start  free.
         </span>
     </p>
