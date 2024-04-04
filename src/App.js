@@ -10,7 +10,7 @@ import HeadContainer from "./components/head/HeadContainer";
 
 function App() {
   return (
-    <div>
+    <div className="bg-white">
    {/* <DemoComponent /> */}
    <HeadContainer />
    <MainBody />
