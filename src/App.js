@@ -1,4 +1,4 @@
-import DemoComponent from "./DemoComponent";
+
 import BookingContainer from "./components/bookingComponent/BookingContainer";
 import FAQMain from "./components/faqComponents/FAQMain";
 import MainBody from "./components/mainBody/MainBody";
@@ -11,15 +11,14 @@ import NavContainer from "./components/nav/NavContainer";
 
 function App() {
   return (
-    <div className="bg-white p-5 ">
-   {/* <DemoComponent /> */}
-   <NavContainer />
-   <HeadContainer />
+    <div className="bg-white p-1 lg:p-5 ">
+ 
+   {/* <NavContainer /> kk */}
+   {/* <HeadContainer /> kk */}
    <MainBody />
-   <FAQMain />
-   <BookingContainer />
-   <FooterContainer />
-   {/* <PlanTrial /> */}
+   {/* <FAQMain />kk */}
+   {/* <BookingContainer />kk */}
+   {/* <FooterContainer /> kk*/}
     </div>
   );
 }

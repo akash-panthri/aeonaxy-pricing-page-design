@@ -8,7 +8,7 @@ export default function PlanElement({planDatum}) {
     <h2 className='text-xl font-bold mb-[20px]'>{planDatum.planName}</h2>
     <h1 className='text-4xl mb-[20px]'> {isNaN(parseInt(planDatum.price)/1) ?"":"$"}{planDatum.price}{isNaN(parseInt(planDatum.price)/1) ?<></>:<span className='text-base'>/seat/month</span>}</h1>
     <p className='text-gray-400'>{planDatum.planDetail}</p>
-    <button style={{borderColor:planDatum.buttonBorder, background:planDatum.buttonBg, color:planDatum.buttonTextCol}} className={`rounded-[10px] w-3/4 h-[10%] border-2  absolute bottom-[12px] mx-auto`}>{planDatum.buttonText}</button>
+    <button style={{borderColor:planDatum.buttonBorder, background:planDatum.buttonBg, color:planDatum.buttonTextCol}} className={`rounded-[10px] w-3/4 h-[10%] border-2  absolute bottom-[12px] mx-[10%]`}>{planDatum.buttonText}</button>
     </div>
   )
 }

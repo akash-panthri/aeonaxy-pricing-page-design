@@ -11,7 +11,7 @@ const Switcher = () => {
 
   return (
     <>
-      <label className='relative flex flex-row w-1/4  justify-between cursor-pointer select-none items-center'>
+      <label className='relative flex flex-row w-full md:w-3/4 lg:w-1/4  justify-between cursor-pointer select-none items-center'>
       <span className={` ${isChecked ? 'text-[#dddfe1]' : 'text-cyl-blue font-semibold'}`}>Billed Monthly</span>
         <input
           type='checkbox'

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FeatureCardElement({ planDatum }) {
   return (
-    <div className="w-[15%] h-[250px] border p-3 flex flex-col justify-evenly ">
+    <div className="w-[200px] lg:w-[15%] h-[250px] border p-3 flex flex-col justify-evenly ">
       <h2 className="text-2xl text-center">{planDatum.planName}</h2>
       <h2 className="text-4xl text-center">
         {planDatum.planName === "Enterprise"

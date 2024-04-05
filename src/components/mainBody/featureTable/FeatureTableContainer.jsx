@@ -8,10 +8,10 @@ export default function FeatureTableContainer() {
   return (
     <div style={expand ? {borderRadius:"10px", borderWidth:"1px"}:{}}>
     <div style={expand ? {}: {borderRadius:"10px", borderWidth:"1px"}} className='w-full flex flex-row px-[20px] py-[10px] my-[10px] justify-between items-center'>
-    <span style={expand ? {color:'DodgerBlue'} : {}} className=' text-xl'>
+    <span style={expand ? {color:'DodgerBlue'} : {}} className='text-base lg:text-xl'>
     Core Features
     </span> 
-    <FontAwesomeIcon  className='text-2xl' onClick={()=> setExpand(prev =>!prev)} icon={expand ? faChevronDown: faChevronRight} />
+    <FontAwesomeIcon  className='text-lg lg:text-2xl' onClick={()=> setExpand(prev =>!prev)} icon={expand ? faChevronDown: faChevronRight} />
     </div>
     {
       expand ?

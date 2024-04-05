@@ -6,9 +6,9 @@ export default function FeatureTableElement(featureDatum) {
 
   return (
     <div className='flex flex-row'>
-    <div className="w-[20%] p-[10px] border flex flex-row justify-between">{featureDatum.featureDatum?.fmain}{featureDatum.featureDatum?.detail ? <FontAwesomeIcon className='text-2xl text-sky-300' icon={faCircleInfo} />:<></>}</div>
+    <div className="w-[50%] md:w-[20%] p-[10px] border flex flex-row justify-between">{featureDatum.featureDatum?.fmain}{featureDatum.featureDatum?.detail ? <FontAwesomeIcon className='text-lg lg:text-2xl text-sky-300' icon={faCircleInfo} />:<></>}</div>
     {featureDatum.featureDatum?.fbody?.map((featureDat, index)=>{
-      return <div style={index === 2 ?{background:"#f2f7fe"}:{}} className="w-[16%] p-[10px] border text-center" key={index} >{(featureDat === "Yes" || featureDat === "No") ? <FontAwesomeIcon  className='text-2xl text-gray-400' icon={featureDat === "Yes" ? faCircleCheck : faMinus} /> : featureDat}</div>
+      return <div style={index === 2 ?{background:"#f2f7fe"}:{}} className="break-words w-[10%] md:w-[16%] p-[10px] border text-center" key={index} >{(featureDat === "Yes" || featureDat === "No") ? <FontAwesomeIcon  className='text-lg lg:text-2xl text-gray-400' icon={featureDat === "Yes" ? faCircleCheck : faMinus} /> : featureDat}</div>
     })}
    
     

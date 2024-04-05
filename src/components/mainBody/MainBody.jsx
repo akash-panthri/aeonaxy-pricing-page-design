@@ -6,7 +6,7 @@ import ExpanderContainer from './expander/ExpanderContainer'
 
 export default function mainBody() {
   return (
-    <div className='px-[7.5%]'>
+    <div className='lg:px-[7.5%]'>
     <PlanContainer />
     <FeatureCardContainer />
     <FeatureTableContainer />
