@@ -6,19 +6,18 @@ import './App.css'
 import FooterContainer from "./components/foooter/FooterContainer";
 import HeadContainer from "./components/head/HeadContainer";
 import NavContainer from "./components/nav/NavContainer";
-// import PlanTrial from "./components/mainBody/plan/PlanTrial";
 
 
 function App() {
   return (
     <div className="bg-white p-1 lg:p-5 ">
  
-   {/* <NavContainer /> kk */}
-   {/* <HeadContainer /> kk */}
+   <NavContainer />
+   <HeadContainer />
    <MainBody />
-   {/* <FAQMain />kk */}
-   {/* <BookingContainer />kk */}
-   {/* <FooterContainer /> kk*/}
+   <FAQMain />
+   <BookingContainer />
+   <FooterContainer />
     </div>
   );
 }

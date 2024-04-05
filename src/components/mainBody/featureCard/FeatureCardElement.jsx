@@ -32,16 +32,3 @@ export default function FeatureCardElement({ planDatum }) {
     </div>
   );
 }
-// { bg-[${planDatum.cardBg}]
-//   "id":3, overflow-hidden
-//   "cardBg":"#fff",
-//   "buttonBg":"#056dff",
-//   "cardTextCol":"#000",
-//   "buttonTextCol":"#fff",
-//   "buttonBorder":"#056dff",
-//   "buttonText":"Start Professional",
-//   "planName":"Professional",
-//   "price":"12",
-//   "planDetail":"When you need customization, integrations, and basic team features",
-//   "popular":"dd"
-// }

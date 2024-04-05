@@ -25,7 +25,7 @@ export default function EasyAhead() {
     <p className='flex flex-col text-[10px]'>Get it on<span className='text-[20px]'>Play Store</span></p>
     </div>
 </div>
-    <div className="text-lg lg:text-4xl flex flex-row justify-between mt-3 lg:w-3/4">
+    <div className="text-lg lg:text-4xl flex flex-row justify-between mt-3 md:w-3/4">
     <FontAwesomeIcon icon={faTwitter} />
     <FontAwesomeIcon icon={faFacebookF} />
     <FontAwesomeIcon icon={faInstagram} />
