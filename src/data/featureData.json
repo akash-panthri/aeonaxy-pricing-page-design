@@ -3,13 +3,13 @@
         "id":1,
         "fmain":"Calendar connections per person",
         "fbody":
-            {
-                "Free": 1,
-                "Basic": 2,
-                "Pro": 6,
-                "Team": 6,
-                "Enterprise": 6
-               }
+            [
+                 1,
+                 2,
+                 6,
+                 6,
+                 6
+               ]
        
     }
     ,
@@ -17,13 +17,13 @@
         "id":2,
         "fmain":"Connect to Google, Office 365, Outlook, and iCloud calendars",
         "fbody":
-            {
-                "Free": "Yes",
-                "Basic": "Yes",
-                "Pro": "Yes",
-                "Team": "Yes",
-                "Enterprise": "Yes"
-               }
+            [
+                 "Yes",
+                 "Yes",
+                 "Yes",
+                 "Yes",
+                 "Yes"
+               ]
        
     }
     ,
@@ -31,126 +31,133 @@
         "id":3,
         "fmain":"Access Calendly with web, iOS, and Android apps",
         "fbody":
-            {
-               
-                "Free": "Yes",
-                "Basic": "Yes",
-                "Pro": "Yes",
-                "Team": "Yes",
-                "Enterprise": "Yes"
-               }
+            [
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ]
        
     }
     ,
     {
         "id":4,
         "fmain":"Active event types",
+        "detail":"aa",
         "fbody":
-            {
-                "Free": 1,
-                "Basic": "Unlimited",
-                "Pro": "Unlimited",
-                "Team": "Unlimited",
-                "Enterprise": "Unlimited"
-               }
+            [
+                 1,
+                 "Unlimited",
+                 "Unlimited",
+                 "Unlimited",
+                 "Unlimited"
+               ]
        
     }
     ,
     {
         "id":5,
         "fmain":"Create unlimited one-on-one events",
+        "detail":"aa",
         "fbody":
-            {
-                "Free": "No",
-                "Basic": "Yes",
-                "Pro": "Yes",
-                "Team": "Yes",
-                "Enterprise": "Yes"
-               }
+            [
+                 "No",
+                 "Yes",
+                 "Yes",
+                 "Yes",
+                 "Yes"
+               ]
        
     }
     ,
     {
         "id":6,
         "fmain":"Create meeting polls",
+        "detail":"aa",
         "fbody":
-            {
-                "Free": "Unlimited",
-                "Basic": "Unlimited",
-                "Pro": "Unlimited",
-                "Team": "Unlimited",
-                "Enterprise": "Unlimited"
-               }
+            [
+                 "Unlimited",
+                 "Unlimited",
+                 "Unlimited",
+                 "Unlimited",
+                 "Unlimited"
+               ]
        
     }
     ,
     {
         "id":7,
         "fmain":"Create one-off meetings",
+        "detail":"aa",
         "fbody":
-            {
-                "Free": "Unlimited",
-                "Basic": "Unlimited",
-                "Pro": "Unlimited",
-                "Team": "Unlimited",
-                "Enterprise": "Unlimited"
-               }
+            [
+                 "Unlimited",
+                 "Unlimited",
+                 "Unlimited",
+                 "Unlimited",
+                 "Unlimited"
+               ]
        
     }
     ,
     {
         "id":8,
         "fmain":"Collective one-offs",
+        "detail":"aa",
         "fbody":
-            {
-                "Free": "No",
-                "Basic": "No",
-                "Pro": "No",
-                "Team": "Yes",
-                "Enterprise": "Yes"
-               }
+            [
+                 "No",
+                 "No",
+                 "No",
+                 "Yes",
+                 "Yes"
+               ]
        
     }
     ,
     {
         "id":9,
         "fmain":"Customize your booking link",
+        "detail":"aa",
         "fbody":
-            {
-                "Free": "No",
-                "Basic": "Yes",
-                "Pro": "Yes",
-                "Team": "Yes",
-                "Enterprise": "Yes"
-               }
+            [
+                 "No",
+                 "Yes",
+                 "Yes",
+                 "Yes",
+                 "Yes"
+               ]
        
     }
     ,
     {
         "id":10,
         "fmain":"Create group events",
+        "detail":"aa",
         "fbody":
-            {
-                "Free": "No",
-                "Basic": "No",
-                "Pro": "No",
-                "Team": "Yes",
-                "Enterprise": "Yes"
-               }
+            [
+                 "No",
+                 "No",
+                 "No",
+                 "Yes",
+                 "Yes"
+               ]
        
     }
     ,
     {
         "id":11,
         "fmain":"Automated event notifications",
+        "detail":"aa",
         "fbody":
-            {
-                "Free": "No",
-                "Basic": "Yes",
-                "Pro": "Yes",
-                "Team": "Yes",
-                "Enterprise": "Yes"
-               }
+            [
+                 "No",
+                 "Yes",
+                 "Yes",
+                 "Yes",
+                 "Yes"
+               ]
        
     }
     ,
@@ -158,27 +165,28 @@
         "id":12,
         "fmain":"Send your invitee email reminders and follow-ups",
         "fbody":
-            {
-                "Free": "No",
-                "Basic": "Yes",
-                "Pro": "Yes",
-                "Team": "Yes",
-                "Enterprise": "Yes"
-               }
+            [
+                 "No",
+                 "Yes",
+                 "Yes",
+                 "Yes",
+                 "Yes"
+               ]
        
     }
     ,
     {
         "id":13,
         "fmain":"Customize email notifications and reminders",
+        "detail":"aa",
         "fbody":
-            {
-                "Free": "No",
-                "Basic": "No",
-                "Pro": "Yes",
-                "Team": "Yes",
-                "Enterprise": "Yes"
-               }
+            [
+                 "No",
+                 "No",
+                 "Yes",
+                 "Yes",
+                 "Yes"
+               ]
        
     }
     ,
@@ -186,13 +194,13 @@
         "id":14,
         "fmain":"Get meeting notifications via text",
         "fbody":
-            {
-                "Free": "No",
-                "Basic": "No",
-                "Pro": "No",
-                "Team": "Yes",
-                "Enterprise": "Yes"
-               }
+            [
+                 "No",
+                 "No",
+                 "No",
+                 "Yes",
+                 "Yes"
+               ]
        
     }
     ,
@@ -200,69 +208,73 @@
         "id":15,
         "fmain":"Update your cancellation policy",
         "fbody":
-            {
-                "Free": "No",
-                "Basic": "No",
-                "Pro": "Yes",
-                "Team": "Yes",
-                "Enterprise": "Yes"
-               }
+            [
+                 "No",
+                 "No",
+                 "Yes",
+                 "Yes",
+                 "Yes"
+               ]
        
     }
     ,
     {
         "id":16,
         "fmain":"Create automated workflows",
+        "detail":"aa",
         "fbody":
-            {
-                "Free": "No",
-                "Basic": "No",
-                "Pro": "No",
-                "Team": "Yes",
-                "Enterprise": "Yes"
-               }
+            [
+                 "No",
+                 "No",
+                 "No",
+                 "Yes",
+                 "Yes"
+               ]
        
     }
     ,
     {
         "id":17,
         "fmain":"Add links to your confirmation pages",
+        "detail":"aa",
         "fbody":
-            {
-                "Free": "No",
-                "Basic": "No",
-                "Pro": "No",
-                "Team": "Yes",
-                "Enterprise": "Yes"
-               }
+            [
+                 "No",
+                 "No",
+                 "No",
+                 "Yes",
+                 "Yes"
+               ]
        
     }
     ,
     {
         "id":18,
         "fmain":"Redirect your invitees",
+        "detail":"aaa",
         "fbody":
-            {
-                "Free": "No",
-                "Basic": "No",
-                "Pro": "No",
-                "Team": "Yes",
-                "Enterprise": "Yes"
-               }
+            [
+                 "No",
+                 "No",
+                 "No",
+                 "Yes",
+                 "Yes"
+               ]
        
     }
     ,
     {
         "id":19,
         "fmain":"View analytics and insights",
+        "detail":"aa",
         "fbody":
-            {
-                "Free": "No",
-                "Basic": "No",
-                "Pro": "Yes",
-                "Team": "Yes",
-                "Enterprise": "Yes"
-               }
+            [
+                 "No",
+                 "No",
+                 "Yes",
+                 "Yes",
+                 "Yes"
+               ]
        
     }
 ]
