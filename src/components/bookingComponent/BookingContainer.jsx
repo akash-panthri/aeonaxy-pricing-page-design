@@ -12,7 +12,7 @@ export default function BookingContainer() {
     Share your Calendly link right from your browser, so you can schedule meetings without the back-and-forth
     </p>
     </div>
-    <div className="flex flex-row justify-between text-white w-full my-7 lg:my-1 md:w-[50%] lg:w-[30%]">
+    <div className="flex flex-row justify-between text-white w-full my-7 lg:my-1 md:w-[50%] lg:w-[40%]">
       <a href='/'><span className='bg-[#006afe] py-3 px-5 rounded-[7.5%] text-sm lg:text-lg'>Sign up for free</span></a>
       <a href='/'><span className='border-2 border-white py-3 px-5 rounded-[7.5%] text-sm lg:text-lg'>Get a demo</span></a>
     </div>
