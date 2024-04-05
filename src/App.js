@@ -10,7 +10,7 @@ import NavContainer from "./components/nav/NavContainer";
 
 function App() {
   return (
-    <div className="bg-white p-1 lg:p-5 ">
+    <div className="bg-white p-1 lg:p-3 ">
  
    <NavContainer />
    <HeadContainer />
